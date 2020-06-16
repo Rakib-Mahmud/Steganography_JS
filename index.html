@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Image Filter</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<script src="script.js"></script>
+<h1>Encrypt An Image Into Another</h1>
+
+<canvas id="can1">
+</canvas>
+<canvas id="can2">
+</canvas>
+<br>
+<b>Original :</b> <input id="fg" type="file" multiple="false" accept="image/*" onchange=upload1()>
+<input type="button" value=Upload onclick=up1()>
+
+<br>
+<b>Message : </b><input id="bg" type="file" multiple="false" accept="image/*"  onchange=upload2() >
+<input type="button" value=Upload onclick=up2()><br>
+
+<input id="encrypt" class="btn" type="button" value="Encrypt" onclick=doEncrypt() >
+<br>
+<input id="extract" class="btn" type="button" value="Decrypt" onclick=doDecrypt() >
+<input id="rmv" class="btn" type="button" value="Clear" onclick=cler() >
+</body>
+</html>

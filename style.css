@@ -1,0 +1,26 @@
+body{
+  background-color:rgb(249,243,179);
+}
+h1{
+  font-family:verdana;
+  color:purple;
+  text-align:center;
+  background-color:powderblue;
+  border: 3px solid skyblue;
+  padding:0px;
+}
+
+canvas{
+  width:334px;
+  height:auto;
+  margin:30px;
+  margin- left:100px;
+  border:1px solid #c3c3c3;
+}
+input{
+  margin:10px;
+  padding:2pt;
+}
+.btn{
+  width:80pt;
+}
